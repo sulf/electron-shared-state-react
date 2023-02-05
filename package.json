@@ -1,0 +1,33 @@
+{
+  "name": "electron-shared-state-react",
+  "version": "0.1.0",
+  "description": "Share state between electron main and multiple renderer processes",
+  "main": "dist/index.js",
+  "author": "Ulf Schwekendiek",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc --watch",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "async-mutex": "^0.4.0",
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "electron": "~22"
+  }
+}

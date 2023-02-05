@@ -1,0 +1,12 @@
+bundled
+.cache
+.DS_Store
+*.log
+node_modules
+.build
+.env
+
+dist
+coverage
+
+electron-shared-state-react-*.tgz
