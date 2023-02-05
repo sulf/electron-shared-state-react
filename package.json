@@ -1,6 +1,6 @@
 {
   "name": "electron-shared-state-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Share state between electron main and multiple renderer processes",
   "main": "dist/index.js",
   "author": "Ulf Schwekendiek",
@@ -33,5 +33,14 @@
   "homepage": "https://github.com/sulf/electron-shared-state-react",
   "bugs": {
     "url": "https://github.com/sulf/electron-shared-state-react/issues"
-  }
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "state",
+    "shared",
+    "ipc",
+    "main",
+    "renderer"
+  ]
 }

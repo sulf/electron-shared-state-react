@@ -24,7 +24,7 @@ export function Settings() {
 
 ### Getting Started
 
-First, install via yarn or npm `npm -i electron-shared-state-react` to your electron application.
+First, install via yarn or npm `npm install electron-shared-state-react` to your electron application.
 
 #### 1. Initialize the manager in your Electron main process
 
