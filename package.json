@@ -29,5 +29,9 @@
   },
   "peerDependencies": {
     "electron": "~22"
+  },
+  "homepage": "https://github.com/sulf/electron-shared-state-react",
+  "bugs": {
+    "url": "https://github.com/sulf/electron-shared-state-react/issues"
   }
 }
